@@ -1,0 +1,3 @@
+# Hack Recursive Function Stack Overflow
+
+This repository demonstrates a potential stack overflow error in a recursive factorial function written in Hack.  The `foo` function calculates the factorial using recursion. For small inputs, it works correctly; however, larger inputs cause a stack overflow due to the depth of recursive calls exceeding the system's limits.  This highlights the need for careful consideration of recursion depth in Hack programming and explores potential solutions like iterative methods or tail-call optimization (if available in Hack).
